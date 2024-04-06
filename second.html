@@ -1,0 +1,113 @@
+<!-- Write a HTML/CSS program to develop a static Web Page
+for Shopping Cart. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart for flowers seeds</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(207, 212, 124);
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+      }
+
+      .product {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+      }
+
+      .product img {
+        max-width: 100px;
+        height: auto;
+        vertical-align: middle;
+        margin-right: 20px;
+      }
+
+      .product .info {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .product .name {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+
+      .product .price {
+        color: #c77b56;
+        font-size: 16px;
+      }
+
+      .cart {
+        background-color: #ffa600;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 20px;
+      }
+
+      .cart:hover {
+        background-color: #e47e7e;
+      }
+
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shopping Cart</h1>
+      <div class="product">
+        <img
+          src="https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_640.jpg"
+          alt="plant seeds 1"
+        />
+        <div class="info">
+          <div class="name">Product 1</div>
+          <div class="price">Rs.150</div>
+        </div>
+      </div>
+      <div class="product">
+        <img
+          src="https://st5.depositphotos.com/35914836/64906/i/450/depositphotos_649066108-stock-photo-pink-flowers-park-spring-bloosom.jpg"
+          alt="plant seeds 2"
+        />
+        <div class="info">
+          <div class="name">Product 2</div>
+          <div class="price">Rs.100</div>
+        </div>
+      </div>
+      <div class="product">
+        <img
+          src="https://www.stockvault.net/data/2010/12/31/116762/thumb16.jpg"
+          alt="Plant seeds 3"
+        />
+        <div class="info">
+          <div class="name">Product 3</div>
+          <div class="price">Rs.200</div>
+        </div>
+      </div>
+      <a href="https://pay.google.com/about/" class="cart">Buy Now</a>
+    </div>
+  </body>
+</html>
+
+
+
+
+
